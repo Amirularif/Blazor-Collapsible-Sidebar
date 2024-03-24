@@ -17,7 +17,7 @@ This project provides a simple implementation of a collapsible sidebar for the d
 ## Guide on how to achieve this
 
 1. Blazor Web App provide us with a default sidebar on the Startup page which is inside the MainLayout.razor and NavMenu.razor. So all we need to do is just locate both files and thier respective css files and start editing.
-<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/a75b0bef-eb4b-40fc-8240-fbbd3564114a">
+<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/a75b0bef-eb4b-40fc-8240-fbbd3564114a" width="200" height=auto>
 
 2. Start with removing the sidebar class in MainLayout.razor and its respective css code inside MainLayout.razor.css.
 3. Add the sidebar class into NavMenu.razor class and its respective css as well.
