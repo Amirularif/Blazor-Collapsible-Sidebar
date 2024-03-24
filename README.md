@@ -5,6 +5,9 @@ This project provides a simple implementation of a collapsible sidebar for the d
 > [!TIP]
 > This simple task is completed for learning purposes. Feel free to use it and let me know ◡̈
 
+## Outcome
+<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/8e822e24-5c5b-4b4b-bede-8175f7e3d481" width="300" height=auto>
+<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/be5e0fd9-888a-48f2-a737-b2a54eeed79c" width="300" height=auto>
 
 ## Features
 
