@@ -6,4 +6,3 @@ This project provides a simple implementation of a collapsible sidebar for the d
 
 - **Expandable and Collapsible:** Click to expand or collapse the sidebar to a minimal icon view.
 - **Smooth Transitions:** Animated transitions for expanding and collapsing the sidebar.
-- **Customizable:** Easy to customize with CSS for your specific needs.
