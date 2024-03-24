@@ -8,5 +8,7 @@ This project provides a simple implementation of a collapsible sidebar for the d
 
 ## Features
 
-- **Expandable and Collapsible:** Click to expand or collapse the sidebar to a minimal icon view.
+- **Expandable and Collapsible:** Click to collapse the sidebar to a minimal icon view. And expand for a full sidebar view.
 - **Smooth Transitions:** Animated transitions for expanding and collapsing the sidebar.
+
+## Guide on how to achieve this
