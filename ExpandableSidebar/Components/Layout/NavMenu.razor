@@ -1,0 +1,90 @@
+﻿@rendermode InteractiveServer
+
+<div style="@SidebarStyle" class="sidebar">
+
+    <div class="top-row ps-3 navbar navbar-dark">
+        <div class="container-fluid"> 
+            @if(!isNarrow)
+            {
+
+                <a class="navbar-brand" href="">Expandable Sidebar</a>
+            }
+            else
+            {
+
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span>
+
+            }
+        </div>
+    </div>
+
+    <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+    <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+        <nav class="flex-column">
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span>
+                    @if (!isNarrow)
+                    {
+
+                        <label class="nav-label"> Home </label>
+
+                    }
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="counter">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span>
+                    @if (!isNarrow)
+                    {
+
+                        <label class="nav-label">Counter</label>
+
+                    }
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="weather">
+                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span>
+                    @if (!isNarrow)
+                    {
+
+                        <label class ="nav-label"> Weather</label>
+
+                    }
+                </NavLink>
+            </div>
+        </nav>
+    </div>
+
+    <div class="bottom-row">
+
+        @if (!isNarrow)
+        {
+            <span class="bi bi-arrow-bar-left-nav-menu" style="color: white;" @onclick="ToggleWidth"></span>
+        }
+        else
+        {
+            <span class="bi bi-arrow-bar-right-nav-menu" style="color: white;" @onclick="ToggleWidth"></span>
+        }
+
+
+    </div>
+
+</div>
+
+@code {
+
+    private bool isNarrow = false;
+
+    private string SidebarStyle => isNarrow ? "width: 88px;" : "width: 250px;";
+
+    private void ToggleWidth()
+    {
+        isNarrow = !isNarrow;
+    }
+}
+
