@@ -14,7 +14,7 @@ This project provides a simple implementation of a collapsible sidebar for the d
 - **Expandable and Collapsible:** Click to collapse the sidebar to a minimal icon view. And expand for a full sidebar view.
 - **Smooth Transitions:** Animated transitions for expanding and collapsing the sidebar.
 
-## Guide on how to achieve this
+## Guide on how to achieve this (_will completely update this soon_)
 
 1. Blazor Web App provide us with a default sidebar on the Startup page which is inside the MainLayout.razor and NavMenu.razor. So all we need to do is just locate both files and thier respective css files and start editing.
 <img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/a75b0bef-eb4b-40fc-8240-fbbd3564114a" width="200" height=auto>
