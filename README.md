@@ -20,9 +20,9 @@ This project provides a simple implementation of a collapsible sidebar for the d
 <img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/a75b0bef-eb4b-40fc-8240-fbbd3564114a" width="200" height=auto>
 
 2. Start with removing the sidebar class in __MainLayout.razor__ and its respective css code inside __MainLayout.razor.css__.
-<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/e4f5eeba-ff38-48c7-bc26-1945d4d7bf85" width="300" height=auto>
-<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/3fb631f0-ebca-44d7-9a97-1a3c2c5b6023" width="300" height=auto>
-<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/596df39b-b51b-43c8-9148-2843f29f9e66" width="300" height=auto>
+<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/633e41ae-5a46-4b54-b060-ec849e83b99d" width="500" height=auto>
+<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/e12cda7f-a63e-41d6-9f1f-ad9bb3283aa2" width="500" height=auto>
+<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/c443dd41-c4c2-431f-a1af-058770ac6baa" width="500" height=auto>
 
 3. Add the sidebar class into __NavMenu.razor__ class and its respective css as well.
 <img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/01029cf1-f3d4-401a-811a-d0e71307faae" width="300" height=auto>
