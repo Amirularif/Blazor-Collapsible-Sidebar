@@ -29,8 +29,9 @@ This project provides a simple implementation of a collapsible sidebar for the d
 <img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/727c4b2d-bad3-4431-b754-a7361a1b22f3" width="300" height=auto>
 <img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/0e4f11a2-497b-4939-840f-67eab8cd4ff6" width="300" height=auto>
 
-5. Create a Method to hold the state of the button. This will allow you to later set the style based on the toggle state.
-6. Create a style SidebarContainer to the sidebar in NavMenu.razor and set the width to change based on the isNarrow method inside the code section.
+5. Create a Method to hold the state of the button. This will allow you to later set the style based on the toggle state. And create a style SidebarContainer to the sidebar in __NavMenu.razor__ and set the width to change based on the isNarrow method inside the code section.
+<img src="https://github.com/Amirularif/Blazor-Collapsible-Sidebar/assets/57553676/f8ed831c-3638-46f0-80d1-591d707079f0" width="700" height=auto>
+
 7. Now, add an if-statement on each nav-link to show extra label when not narrow and to only show icons when is narrow.
 8. In my case, I added an if-else statement for the buttons and the nav-brand to change the button type, either arrow-left or arrow-right based on toggle, and to show only Text of nav-brand when the sidebar is not narrow and Icon when the sidebar is narrow.
 9. Now all left is adding and editing css. In my case :
